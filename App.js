@@ -18,7 +18,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { StackNavigator  } from '@react-navigation';
 import Bed_room from './screens/Bed_room';
 import App_home from './screens/App_home';
-
+import {BrowserRouter , Route } from 'react-router-dom';
+import ReactDOM from 'react';
 
 
 class App extends Component {
@@ -188,3 +189,11 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
+
+
+
+

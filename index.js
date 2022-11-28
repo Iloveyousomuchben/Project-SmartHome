@@ -8,4 +8,6 @@ import {name as appName} from './app.json';
 import App_home from './screens/App_home';
 import Bad_room from './screens/Bed_room';
 
-AppRegistry.registerComponent(appName, () => App );
+
+
+AppRegistry.registerComponent(appName, () => Bad_room );
